@@ -91,9 +91,9 @@ div.campo > input {
     transform: translateY(-12px);
   
 }
-    div.campo > input:focus-within {
+div.campo > input:focus-within {
         background-color: white;
-    }
+}
 
 form > input[type=submit] {
    display: block;
@@ -131,4 +131,7 @@ form > a.botao:hover {
 
 form > a.botao > i {
     font-size: .8em;
+}
+form > p > a {
+    text-align: center;
 }
