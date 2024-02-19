@@ -132,6 +132,10 @@ form > a.botao:hover {
 form > a.botao > i {
     font-size: .8em;
 }
-form > p > a {
+.nome > a{
     text-align: center;
+    text-decoration: none;   
+}
+.nome > a:hover {
+    text-decoration: underline;
 }
